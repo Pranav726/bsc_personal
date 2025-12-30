@@ -1,0 +1,6 @@
+nano counter.bsv
+bsc -sim -g mkCounter Counter.bsv
+bsc -sim -e mkCounter
+./a.out
+bsc -verilog -g mkCounter counter.bsv
+nano mkCounter.v
