@@ -1,4 +1,5 @@
 ##Bluespec Compiler Installation and Setup
+--------------------------------------------
 
 This repository captures my learning and experimental work using Bluespec SystemVerilog (BSV), a high-level hardware description language widely used for designing and verifying complex processors and digital systems. Bluespec enables modular, rule-based hardware design, making it suitable for building scalable and formally analyzable architectures. The repository includes example designs, generated build artifacts, and toolchain setup files that demonstrate the end-to-end flow from BSV source code to simulation and synthesis-ready outputs.
 
@@ -33,10 +34,13 @@ you can test the bsv by following the commands in "test_bsc" file in the repo.
 
 ##step-4
 -------------------
-the output........
-1.the counter counts from 0-255 for every iteration.
-2.by using the command in the "test_bsc" you can convert the bsv code to verilog and the verilog file is saved in the name "mkCounter.v".
-you can see the both outputs if the compiler is installed successfully.
+The counter successfully increments from 0 to 255 for each iteration.
+
+Using the command specified in the test_bsc script, the BSV source code is translated into Verilog.
+
+The generated Verilog output is stored as mkCounter.v.
+
+The presence of both outputs verifies the successful installation and operation of the Bluespec compiler.
 
 ## Acknowledgements
 ----------------------
