@@ -7,40 +7,46 @@ A key motivation for this work is the study of real-world processor implementati
 
 Overall, this repository serves as a learning-oriented reference for understanding how Bluespec is used in processor design and hardware modeling. It aims to bridge fundamental digital design concepts with real processor architectures, providing insight into how high-level hardware descriptions can be translated into efficient, verifiable implementations suitable for FPGA prototyping and further system-level exploration.
 
+
 ##step-1
 -------------------
 clone the bsc repository from "https://github.com/Pranav726/bsc.git" and verify the cloned repo in your pc.
-using the cmd- "sudo git clone https://github.com/Pranav726/bsc.git"
-now clone the submodules from the repo
+using the cmd- "sudo git clone https://github.com/Pranav726/bsc.git".
+now clone the submodules from the repo.
 using the cmd in the "github_submodules" file.
+
 
 ##step-2
 --------------------
 install all dependencies using the cmd in the "install_bsc" file.
-Dependencies - gperf,
+
+Dependencies - 
+
+               perf,
                autoconf,
                flex,
                bison,
                zlib1g-dev.
+               
 still some more dependencies are there,it depends on the spec and os of the pc.
 now make the source file using cmd in the "install_bsc" file.
 change the permission for the required files.
 after making the source file,test the bsv compiler using "bsc -help"
+
 
 ##step-3
 -------------------
 test the compiler by writing a sample bsv code.you can find a sample "counter.bsv" in the repo.
 you can test the bsv by following the commands in "test_bsc" file in the repo.
 
+
 ##step-4
 -------------------
 The counter successfully increments from 0 to 255 for each iteration.
-
 Using the command specified in the test_bsc script, the BSV source code is translated into Verilog.
-
 The generated Verilog output is stored as mkCounter.v.
-
 The presence of both outputs verifies the successful installation and operation of the Bluespec compiler.
+
 
 ## Acknowledgements
 ----------------------
