@@ -1,4 +1,4 @@
-#Bluespec Compiler Installation and Setup
+##Bluespec Compiler Installation and Setup
 
 This repository captures my learning and experimental work using Bluespec SystemVerilog (BSV), a high-level hardware description language widely used for designing and verifying complex processors and digital systems. Bluespec enables modular, rule-based hardware design, making it suitable for building scalable and formally analyzable architectures. The repository includes example designs, generated build artifacts, and toolchain setup files that demonstrate the end-to-end flow from BSV source code to simulation and synthesis-ready outputs.
 
