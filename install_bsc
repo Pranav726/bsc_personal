@@ -3,9 +3,9 @@ sudo apt install -y gperf
 sudo apt install -y autoconf
 sudo apt install -y flex
 sudo apt install -y bison
-chmod -R u+rw src/vendor/stp
 sudo apt install -y zlib1g-dev
 sudo apt install -y tcl-dev
+chmod -R u+rw src/vendor/stp
 sudo chown -R $USER:$USER src/vendor/stp
 make -C src/vendor/stp clean
 sudo chown -R $USER:$USER inst
