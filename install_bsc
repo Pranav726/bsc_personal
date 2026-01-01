@@ -3,16 +3,15 @@ sudo apt install -y gperf
 sudo apt install -y autoconf
 sudo apt install -y flex
 sudo apt install -y bison
-make install-src -j$(nproc)
 chmod -R u+rw src/vendor/stp
 sudo apt install -y zlib1g-dev
+sudo apt install -y tcl-dev
 sudo chown -R $USER:$USER src/vendor/stp
 make -C src/vendor/stp clean
 sudo chown -R $USER:$USER inst
 sudo chown -R $USER:$USER .
 chmod -R u+rwX inst
-sudo apt install -y tcl-dev
-make install-src
+make install-src -j$(nproc)
 export PATH=$PWD/inst/bin:$PATH
 echo 'export PATH=$HOME/bsc/inst/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
