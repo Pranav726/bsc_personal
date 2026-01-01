@@ -8,10 +8,11 @@ sudo apt install -y tcl-dev
 sudo chown -R $USER:$USER src/vendor/stp
 chmod -R u+rw src/vendor/stp
 make -C src/vendor/stp clean
+sudo chown -R $USER:$USER ~/bsc
+make install-src -j$(nproc)
 sudo chown -R $USER:$USER inst
 sudo chown -R $USER:$USER .
 chmod -R u+rwX inst
-make install-src -j$(nproc)
 export PATH=$PWD/inst/bin:$PATH
 echo 'export PATH=$HOME/bsc/inst/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
