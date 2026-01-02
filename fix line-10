@@ -1,3 +1,22 @@
+error:
+
+make[3]: Warning: File 'Makefile' has modification time 18782 s in the future
+Making dependencies
+make[3]: Warning: File 'Makefile' has modification time 18782 s in the future
+Making dependencies
+make[3]: Warning: File 'Makefile' has modification time 18781 s in the future
+Making dependencies
+make[3]: Warning: File 'Makefile' has modification time 18781 s in the future
+Making dependencies
+make[3]: Warning: File 'Makefile' has modification time 18781 s in the future
+Making dependencies
+make[3]: Warning: File 'Makefile' has modification time 18781 s in the future
+Making dependencies
+make[3]: Warning: File 'Makefile' has modification time 18781 s in the future
+Making dependencies
+
+
+
 touch src/vendor/stp/Makefile
 find src/vendor/stp -type f -exec touch {} +
 make -C src/vendor/stp clean
