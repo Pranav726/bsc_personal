@@ -1,0 +1,30 @@
+error:
+
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18363 s in the future
+Making dependencies
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18362 s in the future
+Making dependencies
+make[5]: Warning: File '../../../../../../platform.mk' has modification time 18362 s in the future
+Making dependencies
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18362 s in the future
+Making dependencies
+make[5]: Warning: File '../../../../../../platform.mk' has modification time 18361 s in the future
+Making dependencies
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18361 s in the future
+Making dependencies
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18360 s in the future
+Making dependencies
+make[5]: Warning: File '../../../../../../platform.mk' has modification time 18360 s in the future
+Making dependencies
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18360 s in the future
+Making dependencies
+make[5]: Warning: File '../../../../../../platform.mk' has modification time 18359 s in the future
+Making dependencies
+make[4]: Warning: File '../../../../../platform.mk' has modification time 18359 s in the future
+Making dependencies
+
+
+
+
+find . -type f -exec touch {} +
+make -C src/vendor/stp clean
