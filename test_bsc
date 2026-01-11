@@ -4,3 +4,4 @@ bsc -sim -e mkCounter
 ./a.out
 bsc -verilog -g mkCounter counter.bsv
 nano mkCounter.v
+rm -rf *.out *.so *.bo *.bsv *.ba *.cxx *.h *.o *.v
